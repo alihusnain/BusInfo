@@ -9,9 +9,9 @@
         <EntityTypeShape EntityType="BusDatabaseModel.Fare" Width="1.5" PointX="0.75" PointY="3.875" />
         <EntityTypeShape EntityType="BusDatabaseModel.Schedule" Width="1.5" PointX="3" PointY="3.875" />
         <EntityTypeShape EntityType="BusDatabaseModel.Service" Width="1.5" PointX="0.75" PointY="0.875" />
-        <EntityTypeShape EntityType="BusDatabaseModel.Table" Width="1.5" PointX="5.75" PointY="0.75" />
         <AssociationConnector Association="BusDatabaseModel.FK_Booking_ToTable" />
         <AssociationConnector Association="BusDatabaseModel.FK_Schedule_ToTable" />
+        <AssociationConnector Association="BusDatabaseModel.FK_Fare_ToTable" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
